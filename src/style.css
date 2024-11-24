@@ -201,7 +201,7 @@
 .thq-section-padding {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-fiveunits);
+  padding: var(--dl-space-space-oneunits);
   position: relative;
   align-items: center;
   flex-direction: column;

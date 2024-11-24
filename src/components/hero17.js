@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { useHistory } from 'react-router-dom';
+import SearchSection from './SearchSection' 
 
 
 import Script from 'dangerous-html/react'
@@ -65,28 +66,8 @@ const Hero17 = (props) => {
           </p>
         </div>
         <div className="hero17-actions">
-          <button className="thq-button-filled hero17-button1" onClick={handleClick}>
-            <span>
-              {props.action1 ?? (
-                <Fragment>
-                  <span className="hero17-text5 thq-body-small">
-                    Get Started
-                  </span>
-                </Fragment>
-              )}
-            </span>
-          </button>
-          <button className="thq-button-outline hero17-button2">
-            <span>
-              {props.action2 ?? (
-                <Fragment>
-                  <span className="hero17-text6 thq-body-small">
-                    Learn More
-                  </span>
-                </Fragment>
-              )}
-            </span>
-          </button>
+         
+        <SearchSection />
         </div>
       </div>
       <div className="hero17-content2">

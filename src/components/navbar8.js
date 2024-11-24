@@ -1,10 +1,15 @@
 import React, { useState, Fragment } from 'react'
+import { useHistory } from 'react-router-dom';
+
+
 
 import PropTypes from 'prop-types'
 
 import './navbar8.css'
 
 const Navbar8 = (props) => {
+  const history = useHistory();
+
   const [link5DropdownVisible, setLink5DropdownVisible] = useState(false)
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
   return (
@@ -85,13 +90,12 @@ const Navbar8 = (props) => {
                 )}
               </span>
             </button>
-            <button className="navbar8-action21 thq-button-outline thq-button-animated">
+            <button
+              className="navbar8-action21 thq-button-outline thq-button-animated"
+              onClick={() => history.push('/auth')}
+            >
               <span className="thq-body-small">
-                {props.action2 ?? (
-                  <Fragment>
-                    <span className="navbar8-text25">Log In</span>
-                  </Fragment>
-                )}
+                <span className="navbar8-text25">Log In</span>
               </span>
             </button>
           </div>

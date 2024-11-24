@@ -370,11 +370,11 @@ const Home = (props) => {
             <span className="home-text155 thq-body-large">$1500</span>
           </Fragment>
         }
-        plan1Action1={
-          <Fragment>
-            <span className="home-text156 thq-body-small">Get started</span>
-          </Fragment>
-        }
+        // plan1Action1={
+        //   <Fragment>
+        //     <span className="home-text156 thq-body-small">Get started</span>
+        //   </Fragment>
+        // }
         plan1Yearly1={
           <Fragment>
             <span className="home-text157 thq-body-large">or $20 monthly</span>

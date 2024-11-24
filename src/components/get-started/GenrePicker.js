@@ -5,7 +5,7 @@ import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; // Import the tooltip CSS
 
 const colors = {
-    background: '#120312', // Deep, almost black purple
+    background: '#0f0312', // Deep, almost black purple
     containerBg: '#170720', // Very dark, rich purple
     borderColor: '#4f2175', // Deep, muted purple border
     hoverEffect: 'rgba(94, 20, 135, 0.8)', // Deep purple with opacity
@@ -23,7 +23,7 @@ const GenrePickerContainer = styled.div`
   border-radius: 20px;
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
   position: relative;
-  top: 50px;
+  top: 3vh;
   z-index: 10;
   max-width: 100%;
   overflow-x: auto;
